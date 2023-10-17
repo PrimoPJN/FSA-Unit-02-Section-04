@@ -84,8 +84,15 @@ h1 a, h2 a {
 
 h3 {
   color: #0070C0;
+  font-weight: bold;
 }
- 
+
+hr {
+  border-color: #0070C0;
+}
+
+/* RECIPES */
+
 #recipes li {
   display: flex;
   justify-content: flex-start;
@@ -110,3 +117,32 @@ h3 {
   color: #C00000 !important;
   text-decoration: none;
 }
+
+
+/* RECIPE DETAIL */
+
+#recipe_detail {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#recipe_detail img {
+  height: 400px;
+  padding: 8px;
+}
+
+#recipe_detail div {
+  text-align: left;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+#recipe_detail .imgs li {
+  display: inline;
+}
+
+#recipe_detail .imgs li img {
+  width: 100px;
+  height: 100px;
+}
+
