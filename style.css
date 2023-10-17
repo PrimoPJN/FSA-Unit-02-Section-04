@@ -71,6 +71,7 @@ footer {
 
 h1 {
   color: #7030A0;
+  font-family: "Amasis MT Pro Black";
 }
 
 h2 {
@@ -83,4 +84,29 @@ h1 a, h2 a {
 
 h3 {
   color: #0070C0;
+}
+ 
+#recipes li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#recipes img {
+  height: 200px;
+  padding: 2px;
+}
+
+#recipes li div {
+  padding-left: 8px;
+  margin-right: 20px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid;
+  border-color: #C00000;
+  height: 200px;
+}
+
+#recipes li h3 a {
+  color: #C00000 !important;
+  text-decoration: none;
 }
