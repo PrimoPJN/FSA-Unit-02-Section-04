@@ -146,3 +146,40 @@ hr {
   height: 100px;
 }
 
+
+/* SUGGEST */
+
+#suggestForm {
+  display: flex;
+  flex-direction: column;
+  color: #0070C0;
+  font-weight: bold;
+}
+
+#suggestForm label {
+  margin: 4px;
+}
+
+#suggestForm input {
+  width: 400px;
+  margin: 4px;
+  padding: 4px;
+}
+
+#suggestForm textarea {
+  text-align: left;
+  width: 400px;
+  margin: 4px;
+  padding: 4px;
+}
+
+#suggestForm input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+}
+
+#suggestForm input[type=submit] {
+  text-align: center;
+  width: 200px;
+  height: 30px;
+}
